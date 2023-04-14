@@ -1,7 +1,8 @@
-from flask import Flask, request, render_template
-from faker import Faker
 import csv
+
 import requests
+from faker import Faker
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
